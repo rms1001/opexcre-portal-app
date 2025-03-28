@@ -8,3 +8,4 @@ const firebaseConfig = {
 };
 
 export default firebaseConfig;
+console.log("🔥 Firebase Config:", firebaseConfig);
