@@ -13,6 +13,7 @@ import {
   getDownloadURL,
 } from 'firebase/storage';
 
+import firebaseConfig from './firebaseConfig';
 
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);
