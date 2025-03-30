@@ -51,8 +51,16 @@ export default function Portal() {
   }, []);
 
   const login = () => {
-    signInWithEmailAndPassword(auth, email, password).catch(alert);
+    signInWithEmailAndPassword(auth, email, password)
+      .then((userCred) => {
+        console.log("✅ Logged in:", userCred);
+      })
+      .catch((error) => {
+        console.error("❌ Login error:", error.code, error.message);
+        alert(`Login failed: ${error.message}`);
+      });
   };
+  
 
   const logout = () => signOut(auth);
 
