@@ -1,12 +1,10 @@
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
-  appId: import.meta.env.VITE_FIREBASE_APP_ID,
+  apiKey: "AIzaSyDEJUtcm_cYwZo6qq5JyJL0nnMbJcRWM8",
+  authDomain: "opex-test-3e44b.firebaseapp.com",
+  projectId: "opex-test-3e44b",
+  storageBucket: "opex-test-3e44b.appspot.com",
+  messagingSenderId: "1052140461155",
+  appId: "1:1052140461155:web:bb3e057f1bc80499dcac56"
 };
-
-console.log("🔥 Firebase Config:", firebaseConfig); // Keep for debugging
 
 export default firebaseConfig;
