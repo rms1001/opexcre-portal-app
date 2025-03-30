@@ -7,6 +7,6 @@ const firebaseConfig = {
   appId: import.meta.env.VITE_FIREBASE_APP_ID,
 };
 
-console.log("🔥 Firebase Config", firebaseConfig); // <-- add this
+console.log("🔥 Firebase Config:", firebaseConfig); // Keep for debugging
 
 export default firebaseConfig;
