@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "name": "80 Park Plaza",
+    "size": "972,000 SF Office",
+    "occupancy": "90% Occupied",
+    "value": "$13,000,000",
+    "occupancyData": [50, 60, 70, 75, 78, 80],
+    "files": [
+      { "name": "Q1 2024 Budget" },
+      { "name": "Monthly Report" }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Gateway Centre",
+    "size": "600,000 SF Office",
+    "occupancy": "80% Occupied",
+    "value": "$4,000,000",
+    "occupancyData": [40, 45, 50, 55, 60, 70],
+    "files": [
+      { "name": "CapEx Overview" }
+    ]
+  }
+]
