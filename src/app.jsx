@@ -1,7 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Sidebar from "./components/sidebar";
-import { Dashboard } from "./Pages/Dashboard";  // 👈 matches named export
+import Dashboard from "./Pages/Dashboard";
+
 import Login from "./Pages/Login";
 import AdminPanel from "./Pages/AdminPanel";
 import PropertyDetails from "./Pages/PropertyDetails";
